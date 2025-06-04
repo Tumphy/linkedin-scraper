@@ -1,0 +1,49 @@
+# Core scraping dependencies
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+
+# Stealth browser capabilities
+undetected-chromedriver>=3.5.0
+webdriver-manager>=4.0.0
+
+# Database and storage
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.12.0
+
+# Data processing and export
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Logging and monitoring
+loguru>=0.7.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: API integrations for contact enrichment
+# Uncomment if using external APIs
+# hunter-io>=1.0.0
+# clearbit>=0.1.7
+
+# Optional: Production features
+# Uncomment for production deployment
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# celery>=5.3.0
+# redis>=4.6.0
+# prometheus-client>=0.17.0
+
+# Optional: Advanced features
+# streamlit>=1.25.0  # For dashboard
+# plotly>=5.15.0     # For analytics charts

@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite3
+*.db-journal
+
+# Logs
+*.log
+logs/*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ChromeDriver
+chromedriver*
+*.zip
+
+# Sensitive configuration
+.env
+config.ini
+secrets.json
+
+# Exports and temporary files
+exports/*.csv
+exports/*.xlsx
+exports/*.json
+temp/
+tmp/
+
+# Test results
+test_results/
+coverage.xml
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Docker
+.dockerignore
+
+# MacOS
+*.DS_Store
+
+# LinkedIn specific
+linkedin_*.log
+extraction_*.log
+*.session
+
+# Backup files
+*.bak
+*.backup
+*~.nib
+
+# Cache
+.cache/
+*.cache
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
